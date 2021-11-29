@@ -56,6 +56,12 @@
         "builtinGlobals": true
       }
     ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "semi": ["error", "never"],
     "space-in-parens": ["error"],
     "space-infix-ops": "error",
