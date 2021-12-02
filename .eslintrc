@@ -1,5 +1,5 @@
 {
-  "extends": ["airbnb-base", "react", "prettier"],
+  "extends": ["airbnb-base", "plugin:react/recommended", "prettier"],
   "plugins": ["prettier", "react"],
   "rules": {
     "no-unused-vars": "warn",
