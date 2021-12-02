@@ -25,6 +25,7 @@
     "cy": false
   },
   "rules": {
+    "prettier/prettier": [0, { "endOfLine": "auto" }],
     "eqeqeq": ["error", "always"],
     "no-console": "warn",
     "indent": [
@@ -54,12 +55,6 @@
       "error",
       {
         "builtinGlobals": true
-      }
-    ],
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
       }
     ],
     "semi": ["error", "never"],
