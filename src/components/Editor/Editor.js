@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import './Editor.css';
+import './Editor.css'
 
 export default function Editor({
   title,
@@ -47,7 +47,7 @@ export default function Editor({
               value="left"
               checked={align === 'left'}
               onChange={(e) => {
-                setAlign(e.target.value);
+                setAlign(e.target.value)
               }}
             />
             <i className="ri-align-left"></i>
@@ -59,7 +59,7 @@ export default function Editor({
               value="center"
               checked={align === 'center'}
               onChange={(e) => {
-                setAlign(e.target.value);
+                setAlign(e.target.value)
               }}
             />
             <i className="ri-align-center"></i>
@@ -71,7 +71,7 @@ export default function Editor({
               value="right"
               checked={align === 'right'}
               onChange={(e) => {
-                setAlign(e.target.value);
+                setAlign(e.target.value)
               }}
             />
             <i className="ri-align-right"></i>
@@ -82,12 +82,12 @@ export default function Editor({
         <textarea
           value={text}
           onChange={(e) => {
-            setText(e.target.value);
+            setText(e.target.value)
           }}
           style={{ height: '250px' }}
         />
         <label>Text</label>
       </div>
     </div>
-  );
+  )
 }
