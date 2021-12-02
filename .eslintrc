@@ -25,6 +25,7 @@
     "cy": false
   },
   "rules": {
+    "prettier": [0, { "endOfLine": true }],
     "eqeqeq": ["error", "always"],
     "no-console": "warn",
     "indent": [
