@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './Preview.css'
+import './Preview.css';
 
 export default function Preview({ title, subtitle, font, align, text }) {
   return (
@@ -9,5 +9,5 @@ export default function Preview({ title, subtitle, font, align, text }) {
       <h3> {subtitle}</h3>
       <p>{text}</p>
     </div>
-  )
+  );
 }
